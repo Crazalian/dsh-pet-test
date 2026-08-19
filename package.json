@@ -1,0 +1,11 @@
+{
+  "name": "dsh-pet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Genshin & Firefly pets for the DeepSeek Harness dsh-pet plugin, plus a generator",
+  "scripts": {
+    "generate": "node route-b.js"
+  },
+  "keywords": ["dsh", "deepseek-harness", "pet", "genshin", "spritesheet"],
+  "license": "BSD-3-Clause"
+}
