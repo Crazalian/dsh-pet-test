@@ -4,34 +4,51 @@ A collection of pets for the **dsh-pet** plugin in the DeepSeek Harness Web GUI,
 
 ## What you get
 
-| Pet | id | Source | Notes |
-|---|---|---|---|
-| 流萤 | `firefly` | [RagnarokChan/firefly-codex-pets](https://github.com/RagnarokChan/firefly-codex-pets) | HSR Firefly fan pet (Codex contract) |
-| 流萤花嫁 | `firefly-bride` | [RagnarokChan/firefly-codex-pets](https://github.com/RagnarokChan/firefly-codex-pets) | Firefly wedding variant |
-| 流萤 chibi | `liuying` | [Ruiwang66/codexpetFirefly](https://github.com/Ruiwang66/codexpetFirefly) | AI chibi Firefly |
-| 派蒙 | `paimon` | Programmatic (this repo) | Genshin Paimon generated from a transparent portrait |
-| 夜兰 | `yelan` | Programmatic (this repo) | Genshin Yelan generated from a transparent portrait |
+| Pet | id | Preview | Source | Notes |
+|---|---|---|---|---|
+| 流萤 | `firefly` | ![preview](pets/firefly/previews/overview.png) | [RagnarokChan/firefly-codex-pets](https://github.com/RagnarokChan/firefly-codex-pets) | HSR Firefly fan pet (Codex contract) |
+| 流萤花嫁 | `firefly-bride` | ![preview](pets/firefly-bride/previews/overview.png) | [RagnarokChan/firefly-codex-pets](https://github.com/RagnarokChan/firefly-codex-pets) | Firefly wedding variant |
+| 流萤 chibi | `liuying` | ![preview](pets/liuying/previews/overview.png) | [Ruiwang66/codexpetFirefly](https://github.com/Ruiwang66/codexpetFirefly) | AI chibi Firefly |
+| 派蒙 | `paimon` | ![preview](pets/paimon/previews/overview.png) | Programmatic (this repo) | Genshin Paimon generated from a transparent portrait |
+| 夜兰 | `yelan` | ![preview](pets/yelan/previews/overview.png) | Programmatic (this repo) | Genshin Yelan generated from a transparent portrait |
 
 ## Install
 
 dsh-pet scans **`~/.codex/pets/<petId>/`** automatically at host startup.
 
-1. Copy each pet folder (the ones under `pets/`) into `~/.codex/pets/`:
+**One-click (recommended):**
 
-   ```sh
-   mkdir -p ~/.codex/pets
-   cp -r pets/firefly pets/firefly-bride pets/liuying pets/paimon pets/yelan ~/.codex/pets/
-   ```
+```bash
+# macOS / Linux
+./scripts/install-pets.sh
+```
 
-   On Windows:
+```powershell
+# Windows
+powershell -ExecutionPolicy Bypass -File scripts/install-pets.ps1
+```
 
-   ```powershell
-   $pets = "$env:USERPROFILE\.codex\pets"
-   Copy-Item pets\firefly, pets\firefly-bride, pets\liuying, pets\paimon, pets\yelan -Destination $pets -Recurse
-   ```
+**Manual — copy each pet folder (the ones under `pets/`) into `~/.codex/pets/`:**
 
-2. Restart `dsh web`.
-3. Open **Settings → Pet**, pick your pet.
+```sh
+mkdir -p ~/.codex/pets
+cp -r pets/firefly pets/firefly-bride pets/liuying pets/paimon pets/yelan ~/.codex/pets/
+```
+
+```powershell
+$pets = "$env:USERPROFILE\.codex\pets"
+Copy-Item pets\firefly, pets\firefly-bride, pets\liuying, pets\paimon, pets\yelan -Destination $pets -Recurse
+```
+
+Then **restart `dsh web`** and open **Settings → Pet** to pick your pet.
+
+## Docs & tooling
+
+- [docs/PET-CONTRACT.md](docs/PET-CONTRACT.md) — the full manifest/atlas contract (field table, row order, defaults).
+- [`scripts/validate-pets.js`](scripts/validate-pets.js) — validate every pet against the dsh-pet registry (CI runs it).
+- [`test/contract.test.js`](test/contract.test.js) — contract unit tests (`node --test test/`).
+- [`route-b.js`](route-b.js) — generate a pet from any transparent portrait.
+- CI: GitHub Actions validates pets and runs tests on every push/PR — see [.github/workflows/ci.yml](.github/workflows/ci.yml).
 
 ## Pet manifest contract (Codex / hatch-pet)
 

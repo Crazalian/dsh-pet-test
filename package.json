@@ -4,8 +4,22 @@
   "private": true,
   "description": "Genshin & Firefly pets for the DeepSeek Harness dsh-pet plugin, plus a generator",
   "scripts": {
-    "generate": "node route-b.js"
+    "generate": "node route-b.js",
+    "test": "node --test \"test/*.test.js\"",
+    "validate": "node scripts/validate-pets.js"
   },
   "keywords": ["dsh", "deepseek-harness", "pet", "genshin", "spritesheet"],
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crazalian/dsh-.git"
+  },
+  "files": [
+    "pets",
+    "scripts",
+    "docs",
+    "route-b.js",
+    "README.md",
+    "LICENSE"
+  ]
 }
