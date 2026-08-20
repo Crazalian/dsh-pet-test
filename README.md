@@ -9,7 +9,7 @@ A collection of pets for the **dsh-pet** plugin in the DeepSeek Harness Web GUI,
 | 流萤 | `firefly` | ![preview](pets/firefly/previews/overview.png) | [RagnarokChan/firefly-codex-pets](https://github.com/RagnarokChan/firefly-codex-pets) | HSR Firefly fan pet (Codex contract) |
 | 流萤花嫁 | `firefly-bride` | ![preview](pets/firefly-bride/previews/overview.png) | [RagnarokChan/firefly-codex-pets](https://github.com/RagnarokChan/firefly-codex-pets) | Firefly wedding variant |
 | 流萤 chibi | `liuying` | ![preview](pets/liuying/previews/overview.png) | [Ruiwang66/codexpetFirefly](https://github.com/Ruiwang66/codexpetFirefly) | AI chibi Firefly |
-| 派蒙 | `paimon` | ![preview](pets/paimon/previews/overview.png) | Programmatic (this repo) | Genshin Paimon generated from a transparent portrait |
+| 派蒙 | `paimon` | ![preview](pets/paimon/previews/overview.png) | [awesome-codex-pet](https://github.com/legeling/awesome-codex-pet) (`paimon--lingxiaotian`) | Multi-state community Paimon (real per-state poses) |
 | 夜兰 | `yelan` | ![preview](pets/yelan/previews/overview.png) | Programmatic (this repo) | Genshin Yelan generated from a transparent portrait |
 
 ## Install
