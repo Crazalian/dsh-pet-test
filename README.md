@@ -11,6 +11,7 @@ A collection of pets for the **dsh-pet** plugin in the DeepSeek Harness Web GUI,
 | 流萤 chibi | `liuying` | ![preview](pets/liuying/previews/overview.png) | [Ruiwang66/codexpetFirefly](https://github.com/Ruiwang66/codexpetFirefly) | AI chibi Firefly |
 | 派蒙 | `paimon` | ![preview](pets/paimon/previews/overview.png) | [awesome-codex-pet](https://github.com/legeling/awesome-codex-pet) (`paimon--lingxiaotian`) | Multi-state community Paimon (real per-state poses) |
 | 夜兰 | `yelan` | ![preview](pets/yelan/previews/overview.png) | Programmatic (this repo) | Genshin Yelan — static single-pose portrait (no animation) |
+| 牧濑红莉栖 | `kurisu` | ![preview](pets/kurisu/previews/overview.png) | [awesome-codex-pet](https://github.com/legeling/awesome-codex-pet) (`makisekurisu--m1gr4ine`) | Steins;Gate Makise Kurisu — multi-state chibi (real per-state poses) |
 
 ## Install
 
