@@ -12,6 +12,9 @@ A collection of pets for the **dsh-pet** plugin in the DeepSeek Harness Web GUI,
 | 派蒙 | `paimon` | ![preview](pets/paimon/previews/overview.png) | [awesome-codex-pet](https://github.com/legeling/awesome-codex-pet) (`paimon--lingxiaotian`) | Multi-state community Paimon (real per-state poses) |
 | 夜兰 | `yelan` | ![preview](pets/yelan/previews/overview.png) | Programmatic (this repo) | Genshin Yelan — static single-pose portrait (no animation) |
 | 牧濑红莉栖 | `kurisu` | ![preview](pets/kurisu/previews/overview.png) | [awesome-codex-pet](https://github.com/legeling/awesome-codex-pet) (`makisekurisu--m1gr4ine`) | Steins;Gate Makise Kurisu — multi-state chibi (real per-state poses) |
+| 茜特菈莉 | `citlali` | ![preview](pets/citlali/previews/overview.png) | [awesome-codex-pet](https://github.com/legeling/awesome-codex-pet) (`citlali--zaytsevzy`) | Genshin Citlali — multi-state chibi |
+| 芙宁娜 | `furina` | ![preview](pets/furina/previews/overview.png) | [awesome-codex-pet](https://github.com/legeling/awesome-codex-pet) (`furina--lingxiaotian`) | Genshin Furina — multi-state chibi |
+| 甘雨 | `ganyu` | ![preview](pets/ganyu/previews/overview.png) | [awesome-codex-pet](https://github.com/legeling/awesome-codex-pet) (`ganyu--chenxin-dlut`) | Genshin Ganyu — multi-state chibi |
 
 ## Install
 
